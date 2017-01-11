@@ -1,14 +1,16 @@
 <html>
+<LINK REL=StyleSheet HREF = "style.css">
 <body>
 <script>
 function change() {
 document.getElementById('explosions').innerHTML = "Hello!"
 }
-function alert(){
+function alert1(){
   window.alert(5)
 }
 </script>
 <p id = "explosions">Sup my dude</p>
 <button type="button" onclick="change()">Click!</button>
+<div ondblclick="alert1()"><p id="no">Hello</p></div>
 </body>
 </html>
