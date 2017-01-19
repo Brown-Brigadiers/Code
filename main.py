@@ -8,4 +8,4 @@ def stepGradient(b_current, m_current, points, learningRate):
     new_b = b_current - (learningRate * b_gradient)
     new_m = m_current - (learningRate * m_gradient)
     return [new_b, new_m]
-print(stepGradient(5, 6, ["1","2"], 2))
+print(stepGradient(-1, 0, ["1,2"], 2))
